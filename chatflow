@@ -1,0 +1,76 @@
+{
+  "project_title": "Automated Performance Classification System (Google Sheets Workflow)",
+
+  "overview": "This project demonstrates an automated workflow that processes data from Google Sheets and classifies entries into different performance categories (High, Average, Low). It uses conditional logic to evaluate data and automatically store results back into Google Sheets, reducing manual effort and improving efficiency.",
+
+  "screenshot": {
+    "description": "Workflow Screenshot",
+    "file_path": "./Screenshot.png"
+  },
+
+  "features": [
+    "Automated data trigger from Google Sheets",
+    "Data preprocessing using Edit Fields",
+    "Conditional logic using Switch nodes",
+    "Performance classification (High, Medium, Low)",
+    "Automatic data storage in Google Sheets",
+    "Real-time workflow execution"
+  ],
+
+  "workflow_architecture": {
+    "google_sheets_trigger": "Detects updates or new entries and starts the workflow automatically",
+    "data_processing": "Cleans and formats incoming data using Edit Fields",
+    "conditional_logic": [
+      "High Performance",
+      "Medium Performance",
+      "Low Performance"
+    ],
+    "branch_processing": "Each category is processed separately with custom logic",
+    "final_output": "Processed data is appended back to Google Sheets"
+  },
+
+  "how_it_works": [
+    "Detect new or updated entry in Google Sheets",
+    "Clean and structure the data",
+    "Apply conditions using Switch nodes",
+    "Classify data into categories",
+    "Store results back into Google Sheets"
+  ],
+
+  "components_used": [
+    "Google Sheets Trigger",
+    "Edit Fields Nodes",
+    "Switch Nodes (Rule-based logic)",
+    "Google Sheets (Append Row)"
+  ],
+
+  "use_cases": [
+    "Employee performance tracking",
+    "Student result classification",
+    "Sales performance analysis",
+    "Data automation workflows"
+  ],
+
+  "limitations": [
+    "Depends on correct input data",
+    "Rule-based (not AI-driven)",
+    "Requires manual configuration"
+  ],
+
+  "future_improvements": [
+    "Add AI-based prediction",
+    "Integrate dashboards (Power BI / Tableau)",
+    "Real-time notifications (Email/Slack)",
+    "Advanced analytics"
+  ],
+
+  "author": "Automation and Data Processing Project",
+
+  "license": "Educational Use Only",
+
+  "next_steps": [
+    "Save image as Screenshot.png",
+    "Upload image to GitHub repository",
+    "Add this README content"
+  ]
+}
